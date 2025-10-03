@@ -1,0 +1,86 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+.top-contener{
+  height:90px;
+  background-color:#26d0c9;
+  color:white;
+}
+
+.contener li{
+  float:left;
+  padding:33px 22px;
+}
+
+.logo{
+  float:left;
+  font-size:36px;
+  padding:20px 40px;
+}
+
+.main-contener{
+  padding:100px 80px 0px 80px;
+}
+
+.main-contener h1{
+  font-size:140px;
+}
+
+.main-contener h2{
+  font-size:60px;
+}
+
+.main-contener span{
+  color:#ff4a4a;
+}
+
+.lessen-content{
+  padding:100px 80px;
+  height:500px;
+}
+
+.lessen-content h3{
+  font-size:29px;
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+}
+
+.content{
+  margin:50px 40px 30px 0px;
+  float:left;
+}
+
+.content p{
+  font-size:24px;
+  padding-top:30px;
+}
+
+.contact-from{
+  
+  padding:100px 80px;
+}
+
+.contact-from h3{
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+}
+
+.contact{
+  width:400px;
+  
+}
