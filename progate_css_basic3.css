@@ -71,16 +71,51 @@ li {
 }
 
 .contact-from{
-  
-  padding:100px 80px;
+  padding:0px 80px 100px 80px;
 }
 
 .contact-from h3{
+  padding-bottom:15px;
+  margin-bottom:50px;
   font-size:28px;
   border-bottom:2px solid #dee7ec;
 }
 
-.contact{
+.contact p{
+  padding-bottom:10px;
+  margin-top:30px;
+}
+
+input,textarea{
   width:400px;
-  
+  padding:20px;
+  border:1px solid #dee7ec;
+}
+
+.sousin{
+  font-size:18px;
+  color:#889eab;
+  background-color:#dee7ec;
+  margin:10px 0px 30px 0px;
+}
+
+footer{
+  padding:40px;
+  height:120px;
+  background-color:#2f5167;
+}
+
+.footer-logo{
+  float:left;
+  font-size:32px;
+  color:#fff;
+}
+
+.footer-list{
+  float:right;
+  color:#fff;
+}
+
+.footer-list li{
+  margin-bottom:20px
 }
