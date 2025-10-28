@@ -1,0 +1,231 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+
+header{
+  position:fixed;
+  top:0;
+  width:100%;
+  height:65px;
+  background-color:rgba(34, 49, 52, 0.9);
+  z-index:10;
+}
+
+.header-contener{
+  width:1170px;
+  margin:0 auto;
+  
+}
+
+.header-logo{
+  
+  float:left;
+  width:124px;
+  margin-top:20px;
+}
+
+.login{
+   float:right;
+   background-color:rgba(255, 255, 255, 0.3);
+   line-height:65px;
+   padding:0px 25px;
+   color:white;
+   transition:all 0.5s;
+}
+
+.login:hover{
+   background-color: rgba(255, 255, 255, 0.5);
+}
+
+.top-contener{
+  background:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+}
+
+.top-contener{
+  text-align:center;
+}
+
+.top-contents{
+  padding:180px 0px 0px 0px
+  
+}
+
+.top-contents h1{
+  font-size:45px;
+  letter-spacing:5px;
+  color:white;
+  opacity: 0.7
+}
+
+.top-contents p{
+  
+  color:white;
+  opacity: 0.7
+  
+}
+
+.top-btn{
+ 
+ padding:30px 0px 100px 0px; 
+ 
+}
+
+.btn-new:hover{
+  opacity:1
+}
+
+.Facebook:hover{
+  opacity:1
+}
+
+.Twitter:hover{
+  opacity:1
+}
+
+.top-btn p{
+  padding:15px; 
+  color:white;
+  opacity: 0.7
+  
+}
+
+.btn-new{
+  border-radius:4px;
+  display:inline-block;
+  padding:8px 24px;
+  background-color:#239b76;
+  color:white;
+  opacity:0.8
+}
+
+.Facebook{
+  border-radius:4px;
+  margin-right:10px;
+  color:white;
+  display:inline-block;
+  background-color:#3b5998;
+  padding:8px 24px;
+  opacity:0.8
+}
+
+.Twitter{
+  border-radius:4px;
+  color:white;
+  display:inline-block;
+  background-color:#55acee;
+  padding:8px 24px;
+  opacity:0.8
+}
+.fa{
+  margin-right:5px;
+}
+
+.lesson-contener{
+  background-color:#f7f7f7;
+  height:580px;
+  
+}
+
+.lesson-contents{
+  width:1170px;
+  margin:0 auto;
+}
+
+
+.lesson{
+  
+  float:left;
+  width:25%;
+  text-align: center;
+}
+
+.lesson-icon img {
+  display: block;      /* ← 画像をブロック要素にする */
+  margin: 0 auto;      /* ← 左右中央寄せ */
+}
+
+.lesson-contents h2{
+  padding:80px 0px 50px 0px;
+  font-weight:normal;
+  color:#5f5d60;
+  text-align:center;
+}
+
+.lesson-icon{
+  display:block;
+  margin:0 auto;
+  position: relative;
+  
+}
+
+.lesson-title{
+  position:absolute;
+  top:90px;
+  width:100%;
+  text-align: center;
+  color:white;
+}
+
+.lesson-txt{
+  padding-top:15px;
+  font-size:13px;
+  color:#b3aeb5;
+  width:80%;
+  margin: 0 auto;        /* ← 中央寄せ */
+  text-align: center;    /* ← テキストも中央寄せ */
+}
+
+.message-contener{
+  padding-top:80px;
+  padding-bottom:80px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.massage h2{
+  font-weight:normal;
+  color:#5f5d60;
+}
+
+.massage h3{
+  padding-bottom:50px;
+  color:#5f5d60;
+}
+
+.btn-massage{
+  display:inline-block;
+  padding:15px 40px;
+  background-color:#5dca88;
+  color:white;
+  opacity:0.8;
+  box-shadow:0 7px #1a7940;
+}
+
+.btn-massage:hover{
+  opacity:1;
+}
+
+.btn-massage:active{
+  box-shadow: none;
+  position:relative;
+  top:7px;
+}
